@@ -698,7 +698,7 @@
       "title": "Térkép",
       "timeoutMs": 0,
       "timeoutEnable": false,
-      "transitionDurationMs": 900,
+      "transitionDurationMs": 1400,
       "showInFrameList": true,
       "showFrameNumber": true,
       "layerProperties": {
@@ -732,7 +732,7 @@
   ],
   "elementsToHide": [],
   "selectedFrames": [
-    "full"
+    "start"
   ],
   "selectedLayers": [
     "__sozi_auto__"
