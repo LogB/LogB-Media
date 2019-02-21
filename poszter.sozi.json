@@ -2,11 +2,11 @@
   "aspectWidth": 16,
   "aspectHeight": 9,
   "enableKeyboardZoom": true,
-  "enableKeyboardRotation": true,
+  "enableKeyboardRotation": false,
   "enableKeyboardNavigation": true,
   "enableMouseTranslation": true,
   "enableMouseZoom": true,
-  "enableMouseRotation": true,
+  "enableMouseRotation": false,
   "enableMouseNavigation": true,
   "frames": [
     {
@@ -32,8 +32,8 @@
         "__sozi_auto__": {
           "cx": 12683.03010888477,
           "cy": 7085.180594065445,
-          "width": 2806.810073619882,
-          "height": 1579.8811192830474,
+          "width": 2806.8100736198844,
+          "height": 1579.8811192830487,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -43,15 +43,7 @@
           "clipHeightFactor": 1
         }
       },
-      "cameraOffsets": {
-        "__sozi_auto__": {
-          "deltaX": 5661.53010888477,
-          "deltaY": 3138.680594065445,
-          "widthFactor": 0.19987253960121643,
-          "heightFactor": 0.20016231081756586,
-          "deltaAngle": 0
-        }
-      }
+      "cameraOffsets": {}
     },
     {
       "frameId": "keretrendszer",
@@ -77,7 +69,7 @@
           "cx": 7489.127338271971,
           "cy": 6431.476133504738,
           "width": 4578.956748137262,
-          "height": 2573.4598661472896,
+          "height": 2573.459866147289,
           "opacity": 1,
           "angle": 0,
           "clipped": true,
@@ -87,15 +79,7 @@
           "clipHeightFactor": 0.9999999999999994
         }
       },
-      "cameraOffsets": {
-        "__sozi_auto__": {
-          "deltaX": 978.911517959471,
-          "deltaY": -453.10638602651215,
-          "widthFactor": 13.387943406206668,
-          "heightFactor": 3.9891298555530947,
-          "deltaAngle": 0
-        }
-      }
+      "cameraOffsets": {}
     },
     {
       "frameId": "problema",
@@ -118,10 +102,10 @@
       },
       "cameraStates": {
         "__sozi_auto__": {
-          "cx": 2471.468147199401,
-          "cy": 6764.419951803856,
-          "width": 4578.956748137262,
-          "height": 2573.4598661472896,
+          "cx": 2518.4719803710414,
+          "cy": 6827.091729366041,
+          "width": 4578.956748137264,
+          "height": 2573.4598661472924,
           "opacity": 1,
           "angle": 0,
           "clipped": true,
@@ -131,15 +115,7 @@
           "clipHeightFactor": 0.9999999999999994
         }
       },
-      "cameraOffsets": {
-        "__sozi_auto__": {
-          "deltaX": -4550.031852800599,
-          "deltaY": 2817.919951803856,
-          "widthFactor": 0.32606684811915276,
-          "heightFactor": 0.32604331257408964,
-          "deltaAngle": 0
-        }
-      }
+      "cameraOffsets": {}
     },
     {
       "frameId": "megoldas",
@@ -164,8 +140,8 @@
         "__sozi_auto__": {
           "cx": 2573.99525830504,
           "cy": 6360.131029583501,
-          "width": 4807.904585544126,
-          "height": 2702.1328594546544,
+          "width": 4807.904585544129,
+          "height": 2702.1328594546558,
           "opacity": 1,
           "angle": 0,
           "clipped": true,
@@ -175,15 +151,7 @@
           "clipHeightFactor": 0.9999999999999994
         }
       },
-      "cameraOffsets": {
-        "__sozi_auto__": {
-          "deltaX": -4447.50474169496,
-          "deltaY": 2413.631029583501,
-          "widthFactor": 0.3423701905251105,
-          "heightFactor": 0.34234547820279415,
-          "deltaAngle": 0
-        }
-      }
+      "cameraOffsets": {}
     },
     {
       "frameId": "standard",
@@ -206,33 +174,565 @@
       },
       "cameraStates": {
         "__sozi_auto__": {
-          "cx": 2446.4973608269665,
-          "cy": 4036.379027160547,
-          "width": 4807.904585544126,
-          "height": 2702.1328594546544,
+          "cx": 2611.7686160349986,
+          "cy": 4103.087432096411,
+          "width": 4360.911188702159,
+          "height": 2450.914158235518,
           "opacity": 1,
           "angle": 0,
           "clipped": true,
           "clipXOffset": 0,
           "clipYOffset": 0,
-          "clipWidthFactor": 0.9999999999999991,
-          "clipHeightFactor": 0.9999999999999994
+          "clipWidthFactor": 0.9999999999999984,
+          "clipHeightFactor": 0.999999999999999
         }
       },
-      "cameraOffsets": {
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "arduino",
+      "title": "LogB Arduino",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
         "__sozi_auto__": {
-          "deltaX": -4575.0026391730335,
-          "deltaY": 89.87902716054714,
-          "widthFactor": 0.3423701905251105,
-          "heightFactor": 0.34234547820279415,
-          "deltaAngle": 0
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
         }
-      }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 2298.3915006904954,
+          "cy": 1269.101291004867,
+          "width": 4578.95674813727,
+          "height": 2573.459866147293,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999976,
+          "clipHeightFactor": 0.9999999999999984
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "arduino_lib",
+      "title": "LogB Arduino könyvtár",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 1619.6453515582207,
+          "cy": 671.4114611106111,
+          "width": 1352.1786192091138,
+          "height": 760.4560097774332,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999922,
+          "clipHeightFactor": 0.9993343751056233
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "arduino_setup",
+      "title": "LogB Arduino Setup",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 1845.3114031665982,
+          "cy": 1262.066683492807,
+          "width": 1565.3157740619592,
+          "height": 880.3228883186064,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999873,
+          "clipHeightFactor": 0.99933437510562
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "loop",
+      "title": "LogB Arduino Loop",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 2175.706450555783,
+          "cy": 2071.05482890636,
+          "width": 2202.556487273082,
+          "height": 1238.7027082270838,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999862,
+          "clipHeightFactor": 0.9993343751056193
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "add_new_sensor_data",
+      "title": "LogB Arduino AddNewSensorData",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 1619.2708185760512,
+          "cy": 2140.886173068593,
+          "width": 1168.0627312032193,
+          "height": 656.9104932749729,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.999999999999984,
+          "clipHeightFactor": 0.9993343751056176
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "standard_names",
+      "title": "LogB Arduino Standard nevek",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 1995.8013050651025,
+          "cy": 2060.998625909127,
+          "width": 717.089191652674,
+          "height": 403.2860582115037,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999833,
+          "clipHeightFactor": 0.9993343751056172
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "standard_input",
+      "title": "LogB Arduino Standard bemenetek",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 2734.254129129513,
+          "cy": 2126.426593080045,
+          "width": 960.9680996730567,
+          "height": 540.441888534078,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999802,
+          "clipHeightFactor": 0.9993343751056152
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "code_gen",
+      "title": "Kódgenerátor",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 6024.014109955854,
+          "cy": 992.1214662180828,
+          "width": 2679.5113569053833,
+          "height": 1506.9388656784126,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9991452991452922,
+          "clipHeightFactor": 0.9984802431610901
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "whats_thepoint",
+      "title": "Mire lehet használni",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 7054.676514061234,
+          "cy": 1053.5725087791307,
+          "width": 1902.6511065958973,
+          "height": 1070.0379727693166,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999878,
+          "clipHeightFactor": 0.999334375105621
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "config_gen",
+      "title": "ConfigGenerátor",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 7666.379178009259,
+          "cy": 932.8154451739065,
+          "width": 2677.2211762584743,
+          "height": 1505.650883741945,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999862,
+          "clipHeightFactor": 0.9993343751056201
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "cloud",
+      "title": "LogB Cloud",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 11739.358174222734,
+          "cy": 1365.1604270818207,
+          "width": 4153.248751144967,
+          "height": 2335.75869936187,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999851,
+          "clipHeightFactor": 0.9993343751056194
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "future",
+      "title": "A jövő",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "rect4",
+          "outlineElementId": "rect4",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 11926.151501915194,
+          "cy": 3280.9500563010247,
+          "width": 3956.4236566121767,
+          "height": 2224.5320946303577,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9997602239789959,
+          "clipHeightFactor": 0.9993343751056174
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "open_source",
+      "title": "Nyílt Projekt",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 11526.687804925761,
+          "cy": 5320.299101962171,
+          "width": 3254.95953361998,
+          "height": 1830.1280595063615,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9997602239789968,
+          "clipHeightFactor": 0.9993343751056187
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "summa",
+      "title": "Összegzés",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 7525.59069764329,
+          "cy": 3962.3805889719083,
+          "width": 7458.638043287119,
+          "height": 4193.681250943338,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.9999999999999971,
+          "clipHeightFactor": 0.9995740489937778
+        }
+      },
+      "cameraOffsets": {}
+    },
+    {
+      "frameId": "full",
+      "title": "Térkép",
+      "timeoutMs": 0,
+      "timeoutEnable": false,
+      "transitionDurationMs": 900,
+      "showInFrameList": true,
+      "showFrameNumber": true,
+      "layerProperties": {
+        "__sozi_auto__": {
+          "link": false,
+          "referenceElementId": "Artboard1",
+          "outlineElementId": "Artboard1",
+          "outlineElementAuto": true,
+          "transitionTimingFunction": "easeInOut",
+          "transitionRelativeZoom": 0,
+          "transitionPathId": ""
+        }
+      },
+      "cameraStates": {
+        "__sozi_auto__": {
+          "cx": 7014.724163333236,
+          "cy": 3925.119529139212,
+          "width": 14767.593150685032,
+          "height": 8303.202026719273,
+          "opacity": 1,
+          "angle": 0,
+          "clipped": true,
+          "clipXOffset": 0,
+          "clipYOffset": 0,
+          "clipWidthFactor": 0.999999999999996,
+          "clipHeightFactor": 0.9995740489937768
+        }
+      },
+      "cameraOffsets": {}
     }
   ],
   "elementsToHide": [],
   "selectedFrames": [
-    "start"
+    "standard_names"
   ],
   "selectedLayers": [
     "__sozi_auto__"
